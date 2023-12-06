@@ -17,16 +17,18 @@ reina_n = "\u265B"
 rey_n = "\u265A"
 
 """
-Este archivo, tiene una pequeña diferencia con el del archivo "ajedrez_code.py" y es que este código,
+Este archivo, tiene una pequeña diferencia con el "ajedrez_code" y es que este código,
 está organizado en una clase. Esto simplemente cambia un poco la estructura del código. Algunos cambios
 significativos, son la forma en la que llamamos a las funciones, ya que al pertenecer a una clase, se 
 combierten en métodos de esa clase, y estas tienen acceso a los atributos que se definen en la clase
-gracias a "self". para entender mejor lo que hace, podríamos resumirlo en que "self" es simplemente 
+gracias a "self". Para entender mejor lo que hace, podríamos resumirlo en que "self" es simplemente 
 una convención utilizada para referirse al objeto dentro de la clase.
 
 Realmente, en este caso, no es algo fundamental utilizar una clase para estructurar bien el código. 
 Simplemente con tener funciones cuyos nombres ayuden al lector del código a entender bien la estructura
-de este, y que ayude también a optimizar el código
+de este, y que ayude también a optimizar el código, es suficiente para una estructura lógica. Para ver
+esta fiferencia, simplemente vease el archivo "ajedrez_code" que además, explica más en detalle el 
+funcionamiento de cada función.
 """
 class JuegoAjedrez:
     def __init__(self):
